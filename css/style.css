@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+
+main {
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+/* search box layout 
+*/
+.search-box {
+  margin: 40px auto;
+}
+
+.search-field {
+  font-size: 1.5em;
+}
+
+img {
+  object-fit: cover;
+  max-width: 100%;
+}
+
+figcaption {
+  display: none;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px 20px;
+  max-width: 1300px;
+  border: 1px solid red;
+}
+
+/*# sourceMappingURL=style.css.map */
